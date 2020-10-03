@@ -3,32 +3,22 @@
 \alias{odder}
 \docType{package}
 \title{
-  A short title line describing what the package does
+  Robbie's odd package
 }
 \description{
-  A more detailed description of what the package does. A length
-  of about one to five lines is recommended.
+  A package that has two ways of checking if an integer is odd
 }
 \details{
-  This section should provide a more detailed overview of how to use the
-  package, including the most important functions.
+  There are two functions available for us to use here, R_is_odd, and cpp_is_odd, each of this take a an integer and return a boolean of whether that number is odd or not
 }
 \author{
-Your Name, email optional.
+Robert Davies
 
-Maintainer: Your Name <your@email.com>
-}
-\references{
-  This optional section can contain literature or other references for
-  background information.
-}
-\keyword{ package }
-\seealso{
-  Optional links to other man pages
+Maintainer: Robert Davies <robertwilliamdavies@gmail.com>
 }
 \examples{
   \dontrun{
-     ## Optional simple examples of the most important functions
-     ## These can be in \dontrun{} and \donttest{} blocks.   
+     ## R_is_odd(10L)
+     ## cpp_is_odd(10L)
   }
 }

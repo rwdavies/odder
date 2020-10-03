@@ -7,7 +7,7 @@ Author: Robert Davies
 Maintainer: Robert Davies <robertwilliamdavies@gmail.com>
 Description: This package includes multiple functions to determine if 
         an integer is odd or not.
-License: GPL (>= 2)
+License: GPL3
 Imports: Rcpp (>= 1.0.2)
 LinkingTo: Rcpp
 RoxygenNote: 6.1.1
